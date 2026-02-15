@@ -122,7 +122,7 @@ As a **data analyst project**, this work demonstrates the complete analytics lif
 <summary><b>📊 Click to view all 13 visualizations</b></summary>
 
 ### 1. Score Distribution Analysis
-![Score Distributions](reports/figures/01_score_distributions.png)
+![Score Distributions](https://github.com/Deeppatil05/nba-sports-analytics/blob/a24c1693d0f5e573a50c594e1f2303d7dbb08215/reports/01_score_distributions.png)
 *Understanding game scoring patterns - foundation for further analysis*
 
 ### 2. Home Court Advantage Trends
