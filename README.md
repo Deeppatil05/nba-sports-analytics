@@ -11,7 +11,6 @@
 
 *A comprehensive data analytics project demonstrating end-to-end skills: from messy data to actionable business insights. Analyzed 14,816 NBA games (2006-2017) to uncover a market inefficiency worth 71% ROI through rigorous data analysis and validation.*
 
-[View Analysis](#key-findings) · [See Visualizations](#visualizations) · [Explore Notebooks](#project-structure)
 
 </div>
 
