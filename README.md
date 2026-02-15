@@ -684,7 +684,6 @@ Data Analyst
 📧 Email: dpatil1034gmail.com 
 💼 LinkedIn: www.linkedin.com/in/deep-patil-2330s30
 🐙 GitHub: https://github.com/Deeppatil05
-🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
 
 ---
 
