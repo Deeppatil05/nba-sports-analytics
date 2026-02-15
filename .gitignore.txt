@@ -1,13 +1,35 @@
-# Large Data Files (don't upload to GitHub)
+# ==============================================
+# LARGE DATA FILES - DO NOT UPLOAD TO GITHUB
+# ==============================================
+
+# Raw data (too large for GitHub)
 data/raw/*.csv
-data/processed/*.csv
-*.xlsx
-*.xls
+data/raw/*.xlsx
+data/raw/*.xls
 
-# Keep one small sample file for demo
-!data/sample_output.csv
+# Processed data (too large, can be regenerated)
+data/processed/games_cleaned_all.csv
+data/processed/games_details_cleaned.csv
+data/processed/games_with_betting.csv
+data/processed/games_with_features.csv
+data/processed/train_set.csv
+data/processed/val_set.csv
+data/processed/test_set.csv
 
-# Python
+# Keep small processed files (these are OK)
+!data/processed/cleaning_metadata.json
+!data/processed/feature_list.csv
+!data/processed/feature_importance_preview.csv
+!data/processed/model_comparison.csv
+!data/processed/test_predictions.csv
+!data/processed/xgboost_feature_importance.csv
+
+# Models (keep these - they're small)
+# data/processed/*.pkl  ← Uncomment if models are too large
+
+# ==============================================
+# PYTHON
+# ==============================================
 __pycache__/
 *.py[cod]
 *$py.class
@@ -18,51 +40,28 @@ venv/
 ENV/
 .venv
 
-# Jupyter
+# ==============================================
+# JUPYTER
+# ==============================================
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
+# ==============================================
 # IDE
+# ==============================================
 .vscode/
 .idea/
 *.swp
 *.swo
 
+# ==============================================
 # OS
+# ==============================================
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Models (optional - these are small enough to upload)
-# Uncomment next line if models are too large
-# *.pkl
-
-# Logs
+# ==============================================
+# LOGS
+# ==============================================
 *.log
-```
-
-#### **D) Create `LICENSE`**
-
-Create a file named `LICENSE` (no extension):
-```
-MIT License
-
-Copyright (c) 2026 [Your Name]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
