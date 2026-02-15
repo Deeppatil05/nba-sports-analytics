@@ -126,42 +126,42 @@ As a **data analyst project**, this work demonstrates the complete analytics lif
 *Understanding game scoring patterns - foundation for further analysis*
 
 ### 2. Home Court Advantage Trends
-![Home Court Trends](reports/figures/02_home_court_trends.png)
+![Home Court Trends](reports/02_home_court_trends.png)
 *Key finding: Home advantage declining from 3.16 to 2.47 points over 11 years*
 
 ### 3. Vegas Odds Accuracy Assessment
-![Spread Accuracy](reports/figures/03_spread_accuracy.png)
+![Spread Accuracy](reports/03_spread_accuracy.png)
 *Analyzing prediction errors: Vegas off by ±14.9 points on average*
 
 ### 4. Over/Under (Totals) Market Analysis
-![Totals Analysis](reports/figures/04_totals_analysis.png)
+![Totals Analysis](reports/04_totals_analysis.png)
 *Totals market is efficient: 49% OVER rate (near-perfect 50%)*
 
 ### 5. Day of Week Performance Patterns
-![Day of Week](reports/figures/05_day_of_week.png)
+![Day of Week](reports/05_day_of_week.png)
 *Wednesday has most games; Saturday shows highest home win rate*
 
 ### 6. Monthly & Seasonal Trends
-![Monthly Patterns](reports/figures/06_monthly_patterns.png)
+![Monthly Patterns](reports/06_monthly_patterns.png)
 *Playoffs (April-June) show different patterns than regular season*
 
 ### 7. Feature Correlation Matrix
-![Correlation Matrix](reports/figures/07_correlation_matrix.png)
+![Correlation Matrix](reports/07_correlation_matrix.png)
 *Identifying relationships between variables for deeper analysis*
 
 ### 8. The 63.7% Anomaly Investigation
-![Cover Anomaly](reports/figures/08_cover_anomaly.png)
+![Cover Anomaly](reports/08_cover_anomaly.png)
 *Main finding: Persistent market inefficiency across all seasons*
 
 ### 9. Team Performance Analysis
-![Team Performance](reports/figures/09_team_performance.png)
+![Team Performance](reports/09_team_performance.png)
 *San Antonio Spurs: 86.6% home cover rate - best in dataset*
 
 ### 10-13. Model Validation Visualizations
-![Confusion Matrix](reports/figures/10_confusion_matrices.png)
-![ROC Curves](reports/figures/11_roc_curves.png)
-![Feature Importance](reports/figures/12_feature_importance_comparison.png)
-![ROI Analysis](reports/figures/13_roi_by_confidence.png)
+![Confusion Matrix](reports/10_confusion_matrices.png)
+![ROC Curves](reports/11_roc_curves.png)
+![Feature Importance](reports/12_feature_importance_comparison.png)
+![ROI Analysis](reports/13_roi_by_confidence.png)
 *Statistical validation of findings through predictive modeling*
 
 </details>
