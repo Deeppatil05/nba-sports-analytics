@@ -420,58 +420,6 @@ Across all three models, these factors most strongly predicted outcomes:
 
 ---
 
-## 📁 Project Structure & Reproducibility
-```
-nba-sports-analytics/
-│
-├── 📓 notebooks/                   # Analysis workflow (run in order)
-│   ├── 01_data_quality_assessment.ipynb    # Initial exploration
-│   ├── 02_data_cleaning.ipynb              # Data preparation
-│   ├── 03_exploratory_analysis.ipynb       # 13 visualizations
-│   ├── 04_feature_engineering.ipynb        # Create 74 metrics
-│   └── 05_ml_modeling.ipynb                # Validation & ROI
-│
-├── 📊 data/
-│   ├── raw/                        # Original downloaded data
-│   │   ├── games.csv
-│   │   ├── games_details.csv
-│   │   ├── nba_betting_spread.csv
-│   │   └── ... (5 datasets total)
-│   │
-│   └── processed/                  # Clean, analysis-ready data
-│       ├── games_cleaned_all.csv
-│       ├── games_with_features.csv
-│       ├── train_set.csv
-│       ├── val_set.csv
-│       └── test_set.csv
-│
-├── 📈 reports/
-│   ├── figures/                    # All 13 visualizations
-│   │   ├── 01_score_distributions.png
-│   │   ├── 02_home_court_trends.png
-│   │   └── ... (13 charts total)
-│   │
-│   ├── executive_summary.pdf       # Business overview
-│   ├── model_comparison.csv        # Model performance metrics
-│   └── feature_importance.csv      # Top predictive factors
-│
-├── 🤖 models/
-│   ├── xgboost_model.pkl          # Trained model
-│   ├── logistic_regression_model.pkl
-│   └── model_card.md              # Model documentation
-│
-├── 📚 docs/
-│   ├── methodology.md             # Detailed approach
-│   └── data_dictionary.md         # Feature definitions
-│
-├── README.md                      # This file
-├── requirements.txt               # Python dependencies
-├── LICENSE                        # MIT License
-└── .gitignore                     # Excluded files
-```
-
----
-
 ## 🚀 How to Reproduce This Analysis
 
 ### Prerequisites
@@ -549,18 +497,6 @@ from sklearn.metrics import accuracy_score, roc_auc_score
 ```
 
 ---
-
-## 📚 Detailed Documentation
-
-### For Analysts & Stakeholders
-- **[Executive Summary](reports/executive_summary.pdf)** - 2-page business overview
-- **[Key Visualizations](reports/figures/)** - All 13 charts with context
-- **[Model Comparison](reports/model_comparison.csv)** - Performance metrics
-
-### For Technical Readers
-- **[Methodology](docs/methodology.md)** - Detailed analytical approach
-- **[Data Dictionary](docs/data_dictionary.md)** - All 74 feature definitions
-- **[Model Card](models/model_card.md)** - ML model specifications
 
 ### Jupyter Notebooks
 Each notebook contains:
