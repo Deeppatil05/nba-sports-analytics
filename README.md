@@ -498,14 +498,6 @@ jupyter notebook
 # 5. Run notebooks in sequence (01 → 05)
 ```
 
-### Expected Runtime
-- Notebook 01: ~5 minutes (data assessment)
-- Notebook 02: ~3 minutes (cleaning)
-- Notebook 03: ~10 minutes (EDA + visualizations)
-- Notebook 04: ~5 minutes (feature engineering)
-- Notebook 05: ~10 minutes (modeling + ROI)
-
-**Total:** ~30-40 minutes for complete analysis
 
 ---
 
@@ -668,14 +660,11 @@ This analytical approach applies beyond sports betting:
 
 ### Short-term (Next Steps)
 - [ ] Add **Power BI dashboard** for interactive exploration
-- [ ] Create **Tableau Public** version for portfolio
-- [ ] Test on **2018-2023 data** (if available)
 - [ ] Add **player-level analysis** (injuries, star impact)
 - [ ] Include **weather data** for outdoor sports extension
 
-### Medium-term (Portfolio Growth)
+### Medium-term 
 - [ ] **Web dashboard** using Streamlit for live demos
-- [ ] **SHAP analysis** for model explainability
 - [ ] **A/B testing framework** for strategy comparison
 - [ ] **Automated reporting** pipeline
 - [ ] **Ensemble methods** combining multiple models
@@ -710,22 +699,13 @@ This analytical approach applies beyond sports betting:
 
 ---
 
-## 🏆 Project Recognition
-
-**Suitable For:**
-- Data Analyst job applications ✅
-- Business Intelligence portfolios ✅
-- Analytics case study competitions ✅
-- University capstone projects ✅
-- Professional certifications ✅
-
 **Demonstrates Competency In:**
 - SQL & data integration
 - Python data analysis
 - Statistical thinking
 - Business intelligence
 - Visualization & reporting
-- Predictive analytics (bonus)
+- Predictive analytics 
 
 ---
 
@@ -763,12 +743,12 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📧 Contact & Connect
 
-**[Your Name]**  
-Data Analyst | Sports Analytics Enthusiast
+**Deep Patil**  
+Data Analyst 
 
-📧 Email: [your.email@example.com](mailto:your.email@example.com)  
-💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-🐙 GitHub: [github.com/yourusername](https://github.com/yourusername)  
+📧 Email: dpatil1034gmail.com 
+💼 LinkedIn: www.linkedin.com/in/deep-patil-2330s30
+🐙 GitHub: https://github.com/Deeppatil05
 🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
 
 ---
